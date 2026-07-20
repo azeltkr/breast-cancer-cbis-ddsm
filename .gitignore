@@ -1,0 +1,16 @@
+# dataset - downloaded at runtime via Kaggle API (see README)
+cbis/
+*.zip
+*.csv
+
+# Kaggle credentials - NEVER commit
+kaggle.json
+
+# model artifacts
+*.h5
+*.keras
+saved_model/
+
+# environment
+__pycache__/
+.ipynb_checkpoints/
